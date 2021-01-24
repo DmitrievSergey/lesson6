@@ -79,7 +79,7 @@ struct SQueue<T> {
 
 extension Array {
     
-    func cMap<T> (closure: (Element) -> T?) -> [T] {
+   /* func cMap<T> (closure: (Element) -> T?) -> [T] {
         
         var mappedArray: [T] = []
         
@@ -95,7 +95,7 @@ extension Array {
             
         }
         return mappedArray
-    }
+    }*/
     
     mutating func removeFIrstSafe () -> Element? {
         guard !self.isEmpty else {return nil}
